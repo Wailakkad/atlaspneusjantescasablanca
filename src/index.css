@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-arabic: 'IBM Plex Sans Arabic', system-ui, -apple-system, sans-serif;
+    --font-mono: 'Space Mono', monospace;
+  }
+
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+    color-scheme: dark;
+  }
+
+  html[dir="rtl"] {
+    font-family: var(--font-arabic), var(--font-sans);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #111318;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a313c;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3e4856;
+}
+
+/* Tabular numerals for prices and dimensions */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}

@@ -1,0 +1,8 @@
+{
+  "name": "ATLAS PNEUS & JANTES - Casablanca",
+  "description": "Vente de pneus neufs et jantes aluminium au Maroc. Trouvez la dimension idéale pour votre véhicule, devis immédiat sur WhatsApp et conseils atelier.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
