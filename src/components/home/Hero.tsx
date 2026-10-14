@@ -102,9 +102,9 @@ export const Hero: React.FC = () => {
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-2xl overflow-hidden border border-[#262D38] bg-[#161920] shadow-2xl group">
               <img
-                src="/src/assets/images/hero_automotive_wheel_1791997724025.jpg"
+                src="https://res.cloudinary.com/dhkyla1rv/image/upload/v1792005728/Tire_and_wheel_rolling_forward_2K_20261014182157.jpg"
                 alt="Roue haute performance pneu et jante aluminium Atlas Pneus"
-                className="w-full h-[360px] sm:h-[420px] lg:h-[460px] object-cover object-center group-hover:scale-102 transition-transform duration-700"
+                className="w-full h-auto group-hover:scale-102 transition-transform duration-700"
                 loading="eager"
               />
               
